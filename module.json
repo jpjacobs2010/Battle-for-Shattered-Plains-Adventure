@@ -1,0 +1,56 @@
+{
+  "id": "battle-for-shattered-plains-adventure",
+  "title": "Battle for Shattered Plains Adventure",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "cosmere-rpg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "cosmere-rpg-stormlight-bridge-nine",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "cosmere-rpg-stormlight-handbook",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "cosmere-rpg-stormlight-worldguide",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Jared Jacobs",
+      "discord": "jjacobs",
+      "flags": {}
+    }
+  ],
+  "url": "https://foundryvtt.com",
+  "packs": [
+    {
+      "name": "battle-for-shattered-plains",
+      "label": "Battle for Shattered Plains",
+      "path": "packs/battle-for-shattered-plains",
+      "type": "Adventure",
+      "system": "cosmere-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
